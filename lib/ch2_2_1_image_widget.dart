@@ -3,19 +3,19 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 // 1단계
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       home: Scaffold(
-//         body: Center(
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
 
-//         )
-//       )
-//     );
-//   }
-// }
+        )
+      )
+    );
+  }
+}
 
 // 2단계
 // class MyApp extends StatelessWidget {
@@ -55,18 +55,18 @@ void main() => runApp(MyApp());
 // }
 
 // 4단계
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Image.asset('assets/images/pic.jpg', fit: BoxFit.none),
-          // Image.network('https://pouriahosseini.gallerycdn.vsassets.io/extensions/pouriahosseini/omga-auto-commit/1.2.3/1741430181362/Microsoft.VisualStudio.Services.Icons.Default')
-        ),
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         body: Center(
+//           child: Image.asset('assets/images/pic.jpg', fit: BoxFit.none),
+//           // Image.network('https://pouriahosseini.gallerycdn.vsassets.io/extensions/pouriahosseini/omga-auto-commit/1.2.3/1741430181362/Microsoft.VisualStudio.Services.Icons.Default')
+//         ),
+//       ),
+//     );
+//   }
+// }
